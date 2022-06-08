@@ -6,7 +6,7 @@ pipeline{
         sh '''
         docker version
         docker info
-        docker comoose version
+        docker compose version
         curl --version
         jq --version
         '''
